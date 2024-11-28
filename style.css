@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: aqua;
+}
+header{
+    height: 11vmin;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    padding: 1px;
+}
+h1{
+    text-align: center;
+    margin-top: 1%;
+}
+.container{
+    height: 70vmin;
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.spsgame{
+    /*height: 70vmin;
+    width: 110vmin;
+    margin-top: 5%;
+    margin: auto;*/
+    height: 60vmin;
+    width: 90vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap : 2vmin;
+    place-items: center;
+}
+button{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5%;
+    margin: auto;
+    border: none;
+}
+.Stone{
+    background-image: url("rock.jpg");
+    background-size: cover;
+}
+.paper{
+    background-image: url("paper.png");
+    background-size: cover;
+    background-position: center;
+}
+.scissor{
+    background-image: url("scissor.png");
+    background-size: cover;
+    background-position: center;
+}
+table{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5%;
+}
+.output{
+    text-align: center;
+    font-size: 20px;
+    width: 25vmin;
+}
